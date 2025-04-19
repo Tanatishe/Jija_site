@@ -1,2 +1,4 @@
+from starlette.responses import FileResponse
+
 def main_service():
-    return 'Привет всем!'
+    return FileResponse('src/static/main.html')
