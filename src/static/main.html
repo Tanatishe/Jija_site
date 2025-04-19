@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир Кино - Ваш гид в мире кинематографа</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        
+        nav {
+            background: #333;
+            padding: 0.5rem;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        
+        .movie-card {
+            background: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .movie-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        footer {
+            background: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Мир Кино</h1>
+        <p>Ваш гид в мире кинематографа</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#news">Новости</a></li>
+            <li><a href="#reviews">Обзоры</a></li>
+            <li><a href="#top">Топ фильмов</a></li>
+            <li><a href="#about">О нас</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="news">
+            <h2>Последние новости кино</h2>
+            <div class="movie-card">
+                <h3>Новый фильм Кристофера Нолана выйдет в 2024</h3>
+                <p>Известный режиссер Кристофер Нолан анонсировал свой новый проект, который выйдет на экраны в следующем году. Детали сюжета пока держатся в секрете.</p>
+                <p><small>Опубликовано: 15 октября 2023</small></p>
+            </div>
+        </section>
+        
+        <section id="reviews">
+            <h2>Свежие обзоры</h2>
+            <div class="movie-card">
+                <h3>Обзор: "Дюна" Дени Вильнёва</h3>
+                <img src="https://via.placeholder.com/800x450" alt="Постер фильма Дюна">
+                <p>Эпическая экранизация культового романа Фрэнка Герберта поражает своими масштабами и визуальным великолепием. Тимотти Шаламе идеально воплотил образ Пола Атрейдеса.</p>
+                <p>Оценка: ★★★★☆</p>
+            </div>
+        </section>
+        
+        <section id="top">
+            <h2>Топ-5 фильмов 2023 года</h2>
+            <div class="movie-card">
+                <ol>
+                    <li>"Оппенгеймер"</li>
+                    <li>"Барби"</li>
+                    <li>"Кот в сапогах: Последнее желание"</li>
+                    <li>"Аватар: Путь воды"</li>
+                    <li>"Джон Уик 4"</li>
+                </ol>
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2>О нашем сайте</h2>
+            <div class="movie-card">
+                <p>"Мир Кино" - это место, где собраны самые свежие новости, обзоры и рейтинги из мира кинематографа. Наша команда профессиональных киноманов ежедневно работает, чтобы предоставить вам самую актуальную информацию.</p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Мир Кино. Все права защищены.</p>
+        <p>Свяжитесь с нами: info@миркино.ру</p>
+    </footer>
+</body>
+</html>
