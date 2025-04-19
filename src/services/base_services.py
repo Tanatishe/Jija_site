@@ -1,2 +1,2 @@
 def main_service():
-    return 'Привет,педики!'
+    return 'Привет всем!'

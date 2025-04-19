@@ -1,0 +1,7 @@
+
+services:
+  jija_site:
+    build: .
+    ports:
+      - "80:8000"
+
